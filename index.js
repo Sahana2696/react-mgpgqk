@@ -4,21 +4,23 @@ import './style.css';
 class App extends Component {
   constructor() {
     super();
-    
-    }
-  
+
+  }
+
 
   render() {
     return (
-    
-    <div className="main">
-       <h1> Customer Pricing Map</h1> 
-       <h1 style={{float:"left"}}> FedEx Services</h1>
-       <h1 style={{float:"right"}}> Meenakshi Uppala</h1>
-     
+<div classNmae="page">
+      <div className="main">
+        <h3 class="col-sm-4" style={{ float: "left" }}> FedEx Services</h3>
+        <h3 class="col-sm-4"> Customer Pricing Map</h3>
+        <h3 class="col-sm-4" style={{ float: "right" }}> Meenakshi Uppala</h3>
+        
       </div>
-       
-      
+      <div className="well"> Search Option </div>
+
+</div>
+
     );
   }
 }
