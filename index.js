@@ -19,6 +19,7 @@ class App extends Component {
         
        </div>
        <div className="well"> Search Option </div>
+       <h5> Service Group Type</h5>
        <ServicesGroupType/>
       
       

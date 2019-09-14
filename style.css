@@ -14,6 +14,9 @@ h1, p {
   padding: 10px;
 
 }
+h5{
+  font-weight: bold;
+}
 h6{
     background-color: orangered;
   height:3em;
