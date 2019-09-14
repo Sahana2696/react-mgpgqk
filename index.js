@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import PricingMap from './PricingMap';
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      name: 'React'
-    };
-  }
+    
+    }
+  
 
   render() {
     return (
-      <div>
-    <PricingMap/>
-       
+    
+    <div ClassName="main">
+       <h1 > Customer Pricing Map</h1>
+       <h1 style={{float:"left"}}> FedEx Services</h1>
+       <h1 style={{float:"right"}}> Meenakshi Uppala</h1>
       </div>
+       
+      
     );
   }
 }
