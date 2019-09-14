@@ -11,10 +11,11 @@ class App extends Component {
   render() {
     return (
     
-    <div ClassName="main">
-       <h1 > Customer Pricing Map</h1>
+    <div className="main">
+       <h1> Customer Pricing Map</h1> 
        <h1 style={{float:"left"}}> FedEx Services</h1>
        <h1 style={{float:"right"}}> Meenakshi Uppala</h1>
+     
       </div>
        
       
