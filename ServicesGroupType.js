@@ -13,59 +13,55 @@ export default class ServicesGroupType extends Component {
 
   render() {
     return (
-      <div class="table-responsive">
-        <table class=""table>
-          <tbody>
+      <div >
             <div className="page1">
-              <tr>
-                <th><h6 class="col-sm-4">FXE </h6></th>
-                <td> <label>
+              <h6 class="col-sm-4">FXE </h6><br/><br/><br/>
+                <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Intra-country
-      </label></td><br />
-                <td><label>
+      </label><br/>
+               <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Export
-      </label> </td>
-                <td> <label>
+      </label><br/>
+                <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Import
-      </label></td>
-                <td>  <label>
+      </label><br/>
+                  <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Third-Party
-      </label></td>
-                <td>  <label>
+      </label><br/>
+                <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Puerto Rico
-      </label></td></tr>
+      </label><br/>
             </div>
-            <div className="page2">
-              <tr >
-              <th><h6 class="col-sm-4">FXG </h6></th>
-                <td> <label>
+            <div className="page2"><br/>
+            
+              <h6  class="col-sm-4">FXG </h6><br/><br/><br/>
+               <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Intra Single Piece
-      </label></td>
-                <td> <label>
+      </label><br/>
+                <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Intra MWT
-      </label></td>
-                <td>  <label>
+      </label><br/>
+               <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Export Single Piece
-      </label></td>
-                <td>  <label>
+      </label><br/>
+                <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Import Single Piece
-      </label></td>
-                <td> <label>
+      </label><br/>
+                <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
                   Export/Import MWT
-      </label></td></tr><br />
+      </label><br />
             </div>
-          </tbody>
-        </table>
+          
       </div>
     )
   }

@@ -17,17 +17,19 @@ h1, p {
 h5{
   font-weight: bold;
 }
-.page1{
+h6{
     background-color: orangered;
   height:3em;
   color:white;
   width: 26.333333%;
   padding: 10px;
 }
-.page2{
+/* .page2{
     background-color: green;
   height:3em;
   color:white;
+  float:right;
   width: 26.333333%;
+  margin:100px;
   padding: 10px;
-}
+} */
