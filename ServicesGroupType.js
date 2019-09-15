@@ -13,8 +13,8 @@ export default class ServicesGroupType extends Component {
 
   render() {
     return (
-      <div >
-            <div className="page1">
+      <div className="div1" >
+            <div className="div2">
               <h6 class="col-sm-4">FXE </h6><br/><br/><br/>
                 <label>
                   <input type="checkbox" defaultChecked={this.state.chkbox} />
@@ -33,11 +33,11 @@ export default class ServicesGroupType extends Component {
                   Third-Party
       </label><br/>
                 <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
+                  <input type="checkbox"  defaultChecked={this.state.chkbox} />
                   Puerto Rico
       </label><br/>
             </div>
-            <div className="page2"><br/>
+            <div className="div3"><br/>
             
               <h6  class="col-sm-4">FXG </h6><br/><br/><br/>
                <label>
