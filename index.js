@@ -5,7 +5,9 @@ import ServicesGroupType from './ServicesGroupType';
 class App extends Component {
   constructor() {
     super();
-
+   this.state={
+     chkbox:"true"
+   }
   }
 
 
@@ -20,6 +22,10 @@ class App extends Component {
        </div>
        <div className="well"> Search Option </div>
        <h5> Service Group Type</h5>
+       <label>
+      <input type="checkbox" defaultChecked={this.state.chkbox} />
+      All
+      </label><br/>
        <ServicesGroupType/>
       
       
