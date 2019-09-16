@@ -21,20 +21,20 @@ h6{
     background-color: orangered;
   height:3em;
   color:white;
-  padding: 10px;
+      padding: 6px 0px
  
 }
 .col{
    background-color: green;
   height:3em;
   color:white;
-  padding: 10px;
+  padding: 6px 0px
 }
 .col1{
    background-color: red;
   height:3em;
   color:white;
-  padding: 10px;
+ padding: 6px 0px
 }
 .col2{
     box-shadow: 3px 3px 3px grey;
@@ -49,6 +49,7 @@ h6{
 }
 .pull-right{
   float:right;
+
 }
 .pull-left{
   float:left;
@@ -57,7 +58,7 @@ h6{
   background-color: rgb(66, 13, 165);
 height:3em;
   color:white;
-  padding: 10px;
+ padding: 6px 0px
   
 }
 .region{

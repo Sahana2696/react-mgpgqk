@@ -11,8 +11,9 @@ export default class Region extends Component {
   render() {
     return (
       <div >
-         <div className="disp-inline-flex">
-        <p>Region/Countrry</p>
+         <div className="disp-inline-flex ">
+         <div className="country">
+        <h5 >Region/Countrry</h5>
         <label>
           <input type="checkbox" defaultChecked={this.state.chkbox} />All
            </label><br />
@@ -20,6 +21,7 @@ export default class Region extends Component {
           <input type="checkbox" defaultChecked={this.state.chkbox} />
           Misc
       </label>
+      </div>
       </div>
         <div className="region" >
           <div className="col-lg-2 boxshadow" >

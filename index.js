@@ -24,7 +24,12 @@ class App extends Component {
             <h3> Customer Pricing Map</h3>
           </div>
           <div className="col-lg-4">
-            <h3 className="pull-right"> Meenakshi Uppala</h3>
+          <div>
+            <h3 className=" col-lg-2 pull-right"> Meenakshi Uppala</h3>
+            </div>
+            <div>
+              <h3 className="col-lg-2 pull-right">CPM Administrator</h3>
+            </div>
           </div>
         </div>
         <div className="well"> Search Option </div>
