@@ -28,29 +28,22 @@ h6{
    background-color: green;
   height:3em;
   color:white;
-  
-  
- 
   padding: 10px;
 }
 .col1{
    background-color: red;
   height:3em;
   color:white;
-  
-  
- 
   padding: 10px;
 }
 .col2{
-  border: 1px solid rgb(196, 186, 186);
+    box-shadow: 3px 3px 3px grey;
       height: 193px;
 }
 .clr{
   background-color: rgb(236, 228, 228);
 }
 .reg2{
- 
   padding:100px;
   float:centre;
 }
@@ -59,4 +52,21 @@ h6{
 }
 .pull-left{
   float:left;
+}
+.reg1{
+  background-color: rgb(66, 13, 165);
+height:3em;
+  color:white;
+  padding: 10px;
+  
+}
+.region{
+  display: flex;
+
+}
+.boxshadow{
+  box-shadow: 3px 3px 3px grey;
+};
+.disp-inline-flex{
+  display: inline-flex
 }
