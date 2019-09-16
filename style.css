@@ -77,3 +77,11 @@ height:3em;
  
   margin:10px;
 }
+.pricing{
+  background-color: red;
+  height:3em;
+  color:white;
+ padding: 6px 0px;
+ float:left;
+ 
+}
