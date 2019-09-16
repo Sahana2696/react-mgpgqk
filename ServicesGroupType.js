@@ -9,59 +9,89 @@ export default class ServicesGroupType extends Component {
       chkbox: "true"
     }
   }
-
-
   render() {
     return (
-      <div className="div1" >
-            <div className="div2">
-              <h6 class="col-sm-4">FXE </h6><br/><br/><br/>
-                <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Intra-country
-      </label><br/>
-               <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Export
-      </label><br/>
-                <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Import
-      </label><br/>
-                  <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Third-Party
-      </label><br/>
-                <label>
-                  <input type="checkbox"  defaultChecked={this.state.chkbox} />
-                  Puerto Rico
-      </label><br/>
-            </div>
-            <div className="div3"><br/>
-            
-              <h6  class="col-sm-4">FXG </h6><br/><br/><br/>
-               <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Intra Single Piece
-      </label><br/>
-                <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Intra MWT
-      </label><br/>
-               <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Export Single Piece
-      </label><br/>
-                <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Import Single Piece
-      </label><br/>
-                <label>
-                  <input type="checkbox" defaultChecked={this.state.chkbox} />
-                  Export/Import MWT
+    
+      <div className="clr">
+
+        <div className="col-sm-4 col2">
+          <h6 > <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            FXE
+      </label></h6>
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Intra-country
       </label><br />
-            </div>
-          
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Export
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Import
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Third-Party
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Puerto Rico
+      </label><br />
+        </div>
+
+        <div className="col-sm-4 col2">
+
+          <h6 className="col" ><label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            FXG
+      </label></h6>
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Intra Single Piece
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Intra MWT
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Export Single Piece
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Import Single Piece
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Export/Import MWT
+      </label><br />
+        </div>
+
+          <div className="col-sm-4 col2">
+
+          <h6 className="col1" ><label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            FXF
+      </label></h6>
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Intra Country
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+            Export
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+          Import
+      </label><br />
+          <label>
+            <input type="checkbox" defaultChecked={this.state.chkbox} />
+           Surcharges
+      </label><br /><br/>
+        </div>
       </div>
     )
   }

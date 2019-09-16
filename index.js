@@ -26,7 +26,9 @@ class App extends Component {
       <input type="checkbox" defaultChecked={this.state.chkbox} />
       All
       </label><br/>
+      
        <ServicesGroupType/>
+       
       
       
 

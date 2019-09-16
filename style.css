@@ -2,7 +2,7 @@ h1, p {
   font-family: Lato;
 }
 .main{
-  background-color: rgb(107, 45, 223);
+  background-color: rgb(66, 13, 165);
   height:4em;
   text-align: center;
   color:white;
@@ -21,15 +21,31 @@ h6{
     background-color: orangered;
   height:3em;
   color:white;
-  width: 26.333333%;
+  width: 388px;
   padding: 10px;
+ 
 }
-/* .page2{
-    background-color: green;
+.col{
+   background-color: green;
   height:3em;
   color:white;
-  float:right;
-  width: 26.333333%;
-  margin:100px;
+  
+  width: 388px;
+ 
   padding: 10px;
-} */
+}
+.col1{
+   background-color: red;
+  height:3em;
+  color:white;
+  
+  width: 388px;
+ 
+  padding: 10px;
+}
+.col2{
+  border: 1px solid white;
+}
+.clr{
+  background-color: rgb(236, 228, 228);
+}
