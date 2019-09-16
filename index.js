@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 import ServicesGroupType from './ServicesGroupType';
 import Region from './Region';
+import Search from './Search'
 class App extends Component {
   constructor() {
     super();
@@ -38,6 +39,9 @@ class App extends Component {
           </div>
           <div>
             <Region />
+          </div>
+          <div>
+          <Search/>
           </div>
         </div>
 

@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-import './style.css';
-import ServicesGroupType from './ServicesGroupType';
-import Region from './Region';
-class App extends Component {
+
+export default class Search extends Component {
   constructor() {
     super();
+  }
+  render()
+  {
+    return(
+      <div>
+      <button type="button" className="btn btn-warning button">Search</button>
+      </div>
+
+    )
+  }
+}
