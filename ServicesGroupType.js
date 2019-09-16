@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
 export default class ServicesGroupType extends Component {
   constructor() {
     super();
@@ -14,7 +13,7 @@ export default class ServicesGroupType extends Component {
     
       <div className="clr">
 
-        <div className="col-sm-4 col2">
+        <div className="col-lg-4 col2">
           <h6 > <label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             FXE
@@ -41,7 +40,7 @@ export default class ServicesGroupType extends Component {
       </label><br />
         </div>
 
-        <div className="col-sm-4 col2">
+        <div className="col-lg-4 col2">
 
           <h6 className="col" ><label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
@@ -69,7 +68,7 @@ export default class ServicesGroupType extends Component {
       </label><br />
         </div>
 
-          <div className="col-sm-4 col2">
+          <div className="col-lg-4 col2">
 
           <h6 className="col1" ><label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
@@ -90,7 +89,8 @@ export default class ServicesGroupType extends Component {
           <label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
            Surcharges
-      </label><br /><br/>
+      </label><br />
+      <br/>
         </div>
       </div>
     )
