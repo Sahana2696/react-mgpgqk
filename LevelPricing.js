@@ -13,7 +13,7 @@ export default class LevelPricing extends Component {
     return (
       <div>
         <div className="col-lg-3 boxshadow " >
-          <h6 > <label>
+          <h6  className="Level"> <label>
             <input type="radio" defaultChecked={this.state.chkbox} />
             Level ID/EAN
       </label></h6>
@@ -30,7 +30,7 @@ export default class LevelPricing extends Component {
           </div>
         </div>
         <div className="col-lg-3 boxshadow " >
-          <h6 > <label>
+          <h6 className="Level" > <label>
             <input type="radio" defaultChecked={this.state.chkbox} />
             Pricing Loaded Option
       </label></h6>
@@ -47,7 +47,7 @@ export default class LevelPricing extends Component {
           </div>
         </div>
         <div className="col-lg-3 boxshadow " >
-          <h6 > <label>
+          <h6 className="Level"> <label>
             <input type="radio" defaultChecked={this.state.chkbox} />
             Hierarchy Comparsion Direction
       </label></h6>
@@ -64,7 +64,7 @@ export default class LevelPricing extends Component {
           </div>
         </div>
         <div className="col-lg-3 boxshadow " >
-          <h6 > <label>
+          <h6 className="Level"> <label>
             <input type="radio" defaultChecked={this.state.chkbox} />
             Excluded Status
       </label></h6>
