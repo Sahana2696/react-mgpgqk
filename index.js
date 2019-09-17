@@ -5,6 +5,7 @@ import ServicesGroupType from './ServicesGroupType';
 import Region from './Region';
 import Search from './Search'
 import Customer from './Customer'
+import  LevelPricing from './LevelPricing';
 
 import Header from './Header'
 class App extends Component {
@@ -25,6 +26,9 @@ class App extends Component {
         </div>
 
         <div className="well"> Search Option </div>
+        <div>
+        < LevelPricing/>
+        </div>
         <h5> Service Group Type</h5>
         <label>
           <input type="checkbox" defaultChecked={this.state.chkbox} />
