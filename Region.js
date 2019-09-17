@@ -13,14 +13,7 @@ export default class Region extends Component {
       <div >
          <div className="disp-inline-flex ">
          <div className="country">
-        <h5 >Region/Countrry</h5>
-        <label>
-          <input type="checkbox" defaultChecked={this.state.chkbox} />All
-           </label><br />
-        <label>
-          <input type="checkbox" defaultChecked={this.state.chkbox} />
-          Misc
-      </label>
+       
       </div>
       </div>
         <div className="region" >

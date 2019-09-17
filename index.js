@@ -5,7 +5,10 @@ import ServicesGroupType from './ServicesGroupType';
 import Region from './Region';
 import Search from './Search'
 import Customer from './Customer'
-import  LevelPricing from './LevelPricing';
+import LevelPricing from './LevelPricing';
+import GroupType from './GroupType ';
+import Country from './Country';
+
 
 import Header from './Header'
 class App extends Component {
@@ -20,32 +23,38 @@ class App extends Component {
   render() {
     return (
       <div >
-      <Header/>
+        <Header />
+
         <div className=" col-lg-12 pricing">
-        <Customer/>
+          <Customer />
         </div>
 
         <div className="well"> Search Option </div>
+
         <div>
-        < LevelPricing/>
+          < LevelPricing />
         </div>
-        <h5> Service Group Type</h5>
-        <label>
-          <input type="checkbox" defaultChecked={this.state.chkbox} />
-          All
-      </label><br />
+
+        <div>
+          <GroupType />
+        </div>
+
         <div>
           <div>
             <ServicesGroupType />
           </div>
+
+          <div><Country/>
+          </div>
+
           <div>
             <Region />
           </div>
           <div>
-          <Search/>
+            <Search />
           </div>
         </div>
-        
+
 
 
 

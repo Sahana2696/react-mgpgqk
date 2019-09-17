@@ -91,6 +91,8 @@ height:3em;
 }
 a{
   color:white;
+      margin: 25px;
+    font-size: 18px
 }
 .fontsize{
   font-size:13px;
@@ -105,5 +107,14 @@ a{
 height:3em;
   color:white;
  padding: 6px 10px
+
+}
+.pt20{
+  padding-top: 23px;
+
+}
+.clr-both{
+  clear:both;
+  
 
 }
