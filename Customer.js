@@ -12,8 +12,8 @@ export default class Customer extends Component {
     return(
           <div>
         <BrowserRouter history>
-          <div className="col-lg-12">
-            <nav className="navbar navbar-light pull-right">
+          <div className="col-lg-12 route">
+            <nav className="navbar navbar-light pull-left">
             <Link to='/CustomerInformation'>CustomerInformation</Link>
               <Link to='/PricingMap'>PricingMap</Link>
               <Link to='/EanCount'>EanCount</Link>

@@ -53,6 +53,7 @@ h6{
 }
 .pull-left{
   float:left;
+ 
 }
 .reg1{
   background-color: rgb(66, 13, 165);
@@ -87,4 +88,15 @@ height:3em;
 }
 .pl5{
   padding-left:10px;
+}
+a{
+  color:white;
+}
+.fontsize{
+  font-size:13px;
+
+}
+.pl10
+{
+  padding:10px;
 }
