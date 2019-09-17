@@ -21,20 +21,20 @@ h6{
     background-color: orangered;
   height:3em;
   color:white;
-      padding: 6px 0px
+      padding: 6px 10px
  
 }
 .col{
    background-color: green;
   height:3em;
   color:white;
-  padding: 6px 0px
+  padding: 6px 10px
 }
 .col1{
    background-color: red;
   height:3em;
   color:white;
- padding: 6px 0px
+ padding: 6px 10px
 }
 .col2{
     box-shadow: 3px 3px 3px grey;
@@ -58,7 +58,7 @@ h6{
   background-color: rgb(66, 13, 165);
 height:3em;
   color:white;
- padding: 6px 0px
+ padding: 6px 10px
   
 }
 .region{
@@ -84,4 +84,7 @@ height:3em;
  padding: 6px 0px;
  float:left;
  
+}
+.pl5{
+  padding-left:10px;
 }

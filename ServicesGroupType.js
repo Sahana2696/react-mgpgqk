@@ -18,6 +18,7 @@ export default class ServicesGroupType extends Component {
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             FXE
       </label></h6>
+      <div className="pl5">
           <label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             Intra-country
@@ -38,7 +39,7 @@ export default class ServicesGroupType extends Component {
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             Puerto Rico
       </label><br />
-        </div>
+        </div></div>
 
         <div className="col-lg-4 col2">
 
@@ -46,6 +47,7 @@ export default class ServicesGroupType extends Component {
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             FXG
       </label></h6>
+      <div>
           <label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             Intra Single Piece
@@ -66,7 +68,7 @@ export default class ServicesGroupType extends Component {
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             Export/Import MWT
       </label><br />
-        </div>
+        </div></div>
 
           <div className="col-lg-4 col2">
 
@@ -74,6 +76,7 @@ export default class ServicesGroupType extends Component {
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             FXF
       </label></h6>
+      <div>
           <label>
             <input type="checkbox" defaultChecked={this.state.chkbox} />
             Intra Country
@@ -91,7 +94,7 @@ export default class ServicesGroupType extends Component {
            Surcharges
       </label><br />
       <br/>
-        </div>
+        </div></div>
       </div>
     )
   }

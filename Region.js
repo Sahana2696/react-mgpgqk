@@ -30,6 +30,7 @@ export default class Region extends Component {
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               APAC
       </label></h6><br /><br /><br />
+      <div className="pl5">
             <label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               America Samoa
@@ -51,6 +52,7 @@ export default class Region extends Component {
               China
       </label><br />
             <br />
+            </div>
           </div>
           <div className="col-lg-2 boxshadow" >
 
@@ -59,12 +61,14 @@ export default class Region extends Component {
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               CA
       </label></h6><br /><br /><br />
+      <div className="pl5">
             <label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               Canda
       </label><br />
 
-            <br />
+            <br /></div>
+           
           </div>
           <div className="col-lg-2 boxshadow">
 
@@ -72,6 +76,7 @@ export default class Region extends Component {
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               EU
       </label></h6><br /><br /><br />
+      <div className="pl5">
             <label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               Albania
@@ -93,6 +98,8 @@ export default class Region extends Component {
               Azerbaijan
       </label><br />
             <br />
+            </div>
+           
           </div>
           <div className="col-lg-2 boxshadow">
 
@@ -100,6 +107,7 @@ export default class Region extends Component {
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               LAC
       </label></h6><br /><br /><br />
+      <div className="pl5">
             <label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               Anguilla
@@ -122,12 +130,14 @@ export default class Region extends Component {
       </label><br />
             <br />
           </div>
+          </div>
           <div className="col-lg-2 boxshadow">
 
             <h6 className="col-lg-12 reg1" ><label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               MEISA
       </label></h6><br /><br /><br />
+      <div className="pl5">
             <label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
               Afghanistan
@@ -151,6 +161,7 @@ export default class Region extends Component {
       </label><br />
             <br />
           </div>
+          </div>
              <div className="col-lg-2 boxshadow">
 
 
@@ -158,12 +169,14 @@ export default class Region extends Component {
               <input type="checkbox" defaultChecked={this.state.chkbox} />
             US
       </label></h6><br /><br /><br />
+      <div className="pl5">
             <label>
               <input type="checkbox" defaultChecked={this.state.chkbox} />
             United states
       </label><br />
 
             <br />
+            </div>
           </div>
         </div>
       </div>
